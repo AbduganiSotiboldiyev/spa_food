@@ -1,0 +1,115 @@
+.search {
+    position: relative;
+    padding: 2rem 0;
+
+}
+
+.category_list{
+    padding-bottom: 4rem;
+    height:80vh;
+}
+
+.card_category_item {
+    width: 18rem;
+
+}
+
+.meal_list {
+    height:100%
+}
+
+/* recipe */
+.recipe{
+    position: relative;
+    padding-top: 4rem;
+    color : white;
+    
+}
+.recipe_img{
+    position: relative;
+    
+    height: inherit;
+}
+.recipe_title{
+    position:absolute;
+    left: 20rem;
+    bottom: 2rem;
+    color:rgb(180, 154, 154);
+    font-size: 48px;
+    font-weight:900;    
+}
+
+.recipe_img_img{
+    position: relative;
+    border-radius: 8px;
+    padding-bottom: 2rem;
+}
+
+
+@media only screen and (max-width: 992px) {
+
+    
+    .card_category_item{
+        width: 12rem;
+        min-height: 20rem;
+        
+    }
+
+   
+}
+
+@media only screen and (max-width: 767px) {
+   
+    .recipe_img_img {
+            width: 25rem;
+        }
+
+    .recipe_title {
+      
+        left: 4rem;
+      
+        font-size: 32px;
+        font-weight: 800;
+    }
+
+
+}
+
+@media only screen and (max-width: 567px) {
+    .card_category{
+        padding: 0 2rem;
+        width: 100%;
+    }
+    .card_category_item {
+        width: 18rem;
+
+    }
+
+    .card_title{
+        font-size: 18px;
+    }
+
+    .btn_category{
+        font-size: 16px;
+    }
+
+    .recipe_img_img {
+        width: 18rem;
+    }
+
+    .recipe_video{
+        width: 80vw;
+        height: 30vh;
+        padding-left: 1rem;
+        padding-bottom: 4rem;
+    }
+
+    .recipe_title {
+
+        left: 4rem;
+
+        font-size: 22px;
+        font-weight: 800;
+    }
+
+}

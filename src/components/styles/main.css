@@ -1,0 +1,52 @@
+.nav_bg{
+    background-color: #342628;
+    min-height: 8vh;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    color:aliceblue;
+   
+}
+
+.footer{
+    background-color: #342628;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    color: aliceblue;
+    min-height: 16vh;
+    
+    
+}
+
+.footer_title{
+   position: relative;
+   text-align: left;
+   font-weight: 800;
+   
+   padding-bottom: 1rem;
+}
+
+.social_medias{
+    position: relative;
+    list-style-type: none;
+    display:flex;
+    justify-content: space-between;
+}
+
+.social_media_icon {
+    position: relative;
+    padding-top: 1rem;
+    font-size: 24px;
+    padding-right: 1rem;
+    cursor: pointer;
+}
+
+.social_media_icon:hover {
+    transform: scale(1.2 , 1.2);
+    transition: all 0.2s ease-in-out ;
+}
+
+
+
+

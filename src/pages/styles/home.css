@@ -1,0 +1,265 @@
+.home{
+    background-color: #342628d0;
+    
+}
+
+
+.about{
+    position:relative;
+    padding-top:4rem;
+    width:inherit;
+}
+
+.abot_img{
+    background: url("../homeAllMeal/images/chef.png") center/cover no-repeat;
+    width: 30%;
+    height:80vh;
+    
+}
+
+.about_intro{
+    position:relative;
+    top: 5rem;
+    width:50%;
+}
+
+.about_title{
+    position:relative;
+    top: 2rem;
+    font-weight: 800;
+}
+
+.intro_img{
+    position:relative;
+    z-index:10 ;
+    width:90%;
+    height:50%;
+    border-radius: 8px;
+    box-shadow: 4px 4px 12px 4px rgba(218, 211, 211, 0.651);
+}
+
+
+
+.intro_img:hover {
+    
+    transform: scale(1.1,1);
+    transition: all 0.5s ease;
+    
+}
+
+
+/* table */
+
+.random_meals{
+    position:relative;
+    padding-top:4rem;
+    padding-bottom: 8rem;
+}
+
+.table_img{
+    position: relative;
+    width: 50%;
+}
+.table_random_img{
+    border-radius: 8px;
+    width:inherit
+}
+
+.table_table{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+/* contact */
+.contact_nav{
+    width: 100%;
+    min-height: 12rem;
+    background: linear-gradient(to right bottom, rgba(158, 60, 60, 0.466), rgb(91, 54, 109) );;
+}   
+
+.contact_title{
+    position: relative;
+    font-size: 48px;
+    color:wheat;
+    top: 4rem;
+}
+.title_link{
+    position:absolute;
+    font-size: 18px;
+    font-weight: 800;
+    color: rgba(0, 0, 0, 0.24);
+    right: 8rem;
+    top: 8rem;
+}
+.title_link_{
+    text-decoration:none ;
+}
+
+.contact_card{
+    position: relative;
+    border-radius: 0.5rem;
+    width: 50%;
+    height: 100%;
+    top: 2rem;
+    margin: 0 auto;
+    padding-top: 2rem;
+    background-color: rgb(212, 211, 211)  ;
+}
+
+.card_left{
+    position:relative;
+    width:30%;
+    
+}
+.card_title{
+    position: relative;
+    list-style-type: none;
+    font-size:22px;
+    font-weight: 800;
+    line-height: 4rem;
+    text-align: left;
+}
+.card_right{
+    position:relative;
+    text-align: left;
+    width: 50%;
+}
+
+.card_info{
+    list-style-type: none;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 4rem;
+    text-align: left;
+
+}
+
+/* about */
+.card_about{
+    line-height: 3rem;
+    background-color: rgb(212, 211, 211);
+}
+
+
+
+
+@media only screen and (max-width: 992px) {
+    .about{padding-bottom: 4rem;}
+    
+    .abot_img {
+        width: 40%;
+        
+    }
+
+    .intro_img{
+        width: 70%;
+    }
+
+    .about_title{
+        max-height: 9rem;
+        overflow-y: scroll;
+    }
+
+
+    .table_img{
+       padding-top:5rem;
+       width: 55%;
+    }
+    .table_table{
+        padding-right:4rem ;
+    }
+    .contact_card{
+        top: 0;
+
+         
+    }
+    .card_title {
+        font-size: 18px;
+    }
+
+    .card_left {
+        width: 40%;
+    }
+    .card_right{
+        width: 65%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+.table_img {
+        padding-top: 2rem;
+        margin-left: 1.2rem;
+        width: 90%;
+    }
+
+.table_table {
+        padding-right: 0rem;
+    }
+
+    .contact_card{
+        width: 80%;
+    }
+
+    .card_title {
+        font-size: 16px;
+    }
+
+    .card_left {
+        width: 40%;
+    }
+
+    .card_right {
+        width: 60%;
+    }
+    .card_info {
+        font-size: 14px;
+       
+
+    }
+
+}
+
+@media only screen and (max-width: 576px) {
+        .about{
+            margin-bottom: 6rem;
+        }
+    
+        .abot_img {
+            width: 100%;
+        }
+    
+        .intro_img {
+            width: 60vw;
+            height: 30vh;
+            margin-left: 4rem ;
+        }
+    
+        .about_title {
+            max-height: 9rem;
+            padding-left:1rem;
+            width: 200%;
+            overflow-y: scroll;
+        }
+
+        .contact_card {
+            width: 95%;
+        }
+    .card_title {
+    font-size: 10px;
+    font-weight:600;
+    }
+
+    .card_left {
+        width: 60%;
+    }
+
+    .card_right {
+        width: 60%;
+    }
+    .card_info {
+        font-size: 10px;
+       
+
+    }
+
+}

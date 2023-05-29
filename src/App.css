@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+
+.main_body {
+  position: relative;
+
+  background-color: #342628d0;
+  min-height: calc(100vh - 64px - 168px)
+  
+}
